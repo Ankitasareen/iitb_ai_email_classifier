@@ -1,9 +1,11 @@
 import app1
 import app2
+import app3
 import streamlit as st
 PAGES = {
     "HOME": app1,
-    "CLASSIFY EMAIL": app2
+    "CLASSIFY EMAIL(with trained model)": app2,
+    "CLASSIFY EMAIL(train new model)":app3
      
 }
 st.sidebar.title('Navigation')
